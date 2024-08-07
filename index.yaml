@@ -1,0 +1,420 @@
+apiVersion: v1
+entries:
+  amazon-ec2-metadata-mock:
+  - apiVersion: v1
+    created: "2024-08-07T22:43:41.413905859Z"
+    description: A Helm chart for Amazon EC2 Metadata Mock
+    digest: b39997d06b84a1ca0b068aa3d613ffcc2eb1fce6e5d65045909563e24eb34486
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - ec2
+    - aws-ec2
+    - imds
+    - ec2-instance-metadata
+    - ec2-instance-metadata-mock
+    - spot-interruption-mock
+    - ec2-rebalance-recommendation
+    maintainers:
+    - email: pdk27@users.noreply.github.com
+      name: pdk27
+      url: https://github.com/pdk27
+    - email: brycahta@users.noreply.github.com
+      name: brycahta
+      url: https://github.com/brycahta
+    name: amazon-ec2-metadata-mock
+    sources:
+    - https://github.com/aws/amazon-ec2-metadata-mock
+    - https://github.com/aws/eks-charts/
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/amazon-ec2-metadata-mock-1.11.2.tgz
+    version: 1.11.2
+  appmesh-controller:
+  - apiVersion: v1
+    appVersion: 1.13.1
+    created: "2024-08-07T22:43:41.415614867Z"
+    description: App Mesh controller Helm chart for Kubernetes
+    digest: 6553ab765f5b0422b663a9d3c760bf4adf195062d4c049ef23a7271185869a3d
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - appmesh
+    maintainers:
+    - email: kishorj@users.noreply.github.com
+      name: Kishor Joshi
+      url: https://github.com/kishorj
+    name: appmesh-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/appmesh-controller-1.13.1.tgz
+    version: 1.13.1
+  appmesh-gateway:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2024-08-07T22:43:41.416077939Z"
+    description: App Mesh Gateway Helm chart for Kubernetes
+    digest: 1603bf853facb1be606791efdb985e1476f4a8bae31be5f7741b5333f4c8ac17
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - appmesh
+    - ingress
+    - gateway
+    maintainers:
+    - email: stefanprodan@users.noreply.github.com
+      name: Stefan Prodan
+      url: https://github.com/stefanprodan
+    name: appmesh-gateway
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/appmesh-gateway-0.1.5.tgz
+    version: 0.1.5
+  appmesh-grafana:
+  - apiVersion: v1
+    appVersion: 6.4.3
+    created: "2024-08-07T22:43:41.41678094Z"
+    description: App Mesh Grafana Helm chart for Kubernetes
+    digest: 789ac15df26f5d77047424eda8498f72b6ab14c5a45027c8190e3d6349e25747
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - appmesh
+    - grafana
+    maintainers:
+    - email: nckturner@users.noreply.github.com
+      name: Nicholas Turner
+      url: https://github.com/nckturner
+    - email: stefanprodan@users.noreply.github.com
+      name: Stefan Prodan
+      url: https://github.com/stefanprodan
+    name: appmesh-grafana
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/appmesh-grafana-1.0.4.tgz
+    version: 1.0.4
+  appmesh-inject:
+  - apiVersion: v1
+    appVersion: 0.5.0
+    created: "2024-08-07T22:43:41.417558394Z"
+    description: App Mesh Inject Helm chart for Kubernetes
+    digest: a76b4e1902cd11c61b646665909bba3351352279fede6b315978b6cf93042d3f
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - appmesh
+    maintainers:
+    - email: nckturner@users.noreply.github.com
+      name: Nicholas Turner
+      url: https://github.com/nckturner
+    - email: stefanprodan@users.noreply.github.com
+      name: Stefan Prodan
+      url: https://github.com/stefanprodan
+    name: appmesh-inject
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/appmesh-inject-0.14.8.tgz
+    version: 0.14.8
+  appmesh-jaeger:
+  - apiVersion: v1
+    appVersion: 1.29.0
+    created: "2024-08-07T22:43:41.418280134Z"
+    description: App Mesh Jaeger Helm chart for Kubernetes
+    digest: c919d63f4f185e444ef380b8151b673b42daafd52046951903be32b6f1918502
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - appmesh
+    maintainers:
+    - email: nckturner@users.noreply.github.com
+      name: Nicholas Turner
+      url: https://github.com/nckturner
+    - email: stefanprodan@users.noreply.github.com
+      name: Stefan Prodan
+      url: https://github.com/stefanprodan
+    name: appmesh-jaeger
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/appmesh-jaeger-1.0.3.tgz
+    version: 1.0.3
+  appmesh-prometheus:
+  - apiVersion: v1
+    appVersion: 2.13.1
+    created: "2024-08-07T22:43:41.418876584Z"
+    description: App Mesh Prometheus Helm chart for Kubernetes
+    digest: 4b8552b8b78500cef5cbab630ccfdddb6cb017382923a767017cbdc0d41a6bd2
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - appmesh
+    maintainers:
+    - email: nckturner@users.noreply.github.com
+      name: Nicholas Turner
+      url: https://github.com/nckturner
+    - email: stefanprodan@users.noreply.github.com
+      name: Stefan Prodan
+      url: https://github.com/stefanprodan
+    name: appmesh-prometheus
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/appmesh-prometheus-1.0.3.tgz
+    version: 1.0.3
+  appmesh-spire-agent:
+  - apiVersion: v1
+    appVersion: 1.5.0
+    created: "2024-08-07T22:43:41.419275617Z"
+    description: SPIRE Agent Helm chart for AppMesh mTLS support on Kubernetes
+    digest: f9abec02a1132a8a70a4e0eee241993a8ce726db37266c7f7bd8ddd35b2e9755
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - appmesh
+    - spire
+    maintainers:
+    - name: Apurup Chevuru
+      url: https://github.com/achevuru
+    name: appmesh-spire-agent
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/appmesh-spire-agent-1.0.7.tgz
+    version: 1.0.7
+  appmesh-spire-server:
+  - apiVersion: v1
+    appVersion: 1.5.0
+    created: "2024-08-07T22:43:41.41975959Z"
+    description: SPIRE Server Helm chart for AppMesh mTLS support on Kubernetes
+    digest: 9e6014fed506e6be8f2f8c8dfffda41d6cb4ad0dd5eadb8dbe8b60b3809b81ab
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - appmesh
+    - spire
+    maintainers:
+    - name: Apurup Chevuru
+      url: https://github.com/achevuru
+    name: appmesh-spire-server
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/appmesh-spire-server-1.0.7.tgz
+    version: 1.0.7
+  aws-cloudwatch-metrics:
+  - apiVersion: v1
+    appVersion: 1.300032.2b361
+    created: "2024-08-07T22:43:41.420118656Z"
+    description: A Helm chart to deploy aws-cloudwatch-metrics project
+    digest: 5b03bda976d255054dc95babf8856a27729ce05ad3b6e2e346852a36d5b8a24b
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - cloudwatch
+    - cloudwatch-metrics
+    - containerinsights
+    name: aws-cloudwatch-metrics
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/aws-cloudwatch-metrics-0.0.11.tgz
+    version: 0.0.11
+  aws-efa-k8s-device-plugin:
+  - apiVersion: v1
+    appVersion: v0.5.3
+    created: "2024-08-07T22:43:41.420650628Z"
+    description: A Helm chart for EFA device plugin.
+    digest: 2cef338945e881f555fc232d0e4b719732e0a537f2fef182893dc3e2b48b3850
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    name: aws-efa-k8s-device-plugin
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/aws-efa-k8s-device-plugin-v0.5.3.tgz
+    version: v0.5.3
+  aws-for-fluent-bit:
+  - apiVersion: v1
+    appVersion: 2.32.2.20240516
+    created: "2024-08-07T22:43:41.421931577Z"
+    description: A Helm chart to deploy aws-for-fluent-bit project
+    digest: 8e7745d15952a139e53d1f407b7274fd7ba493b55f5d7cc2e5cf8ab2cc231a59
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - fluentbit
+    - fluent-bit
+    - cloudwatch
+    - firehose
+    - kinesis
+    maintainers:
+    - name: Wesley Pettit
+      url: https://github.com/pettitwesley
+    - email: mforutan@users.noreply.github.com
+      name: Mohammad Forutan
+      url: https://github.com/mforutan
+    name: aws-for-fluent-bit
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/aws-for-fluent-bit-0.1.34.tgz
+    version: 0.1.34
+  aws-load-balancer-controller:
+  - apiVersion: v2
+    appVersion: v2.8.1
+    created: "2024-08-07T22:43:41.423283071Z"
+    description: AWS Load Balancer Controller Helm chart for Kubernetes
+    digest: b555cd34806543991a42c6384306e84efda27ffff5f409bee4dd9d297540e178
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - alb
+    - load balancer
+    - ingress
+    - nlb
+    maintainers:
+    - email: kishorj@users.noreply.github.com
+      name: kishorj
+      url: https://github.com/kishorj
+    - email: m00nf1sh@users.noreply.github.com
+      name: m00nf1sh
+      url: https://github.com/m00nf1sh
+    name: aws-load-balancer-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/aws-load-balancer-controller-1.8.1.tgz
+    version: 1.8.1
+  aws-node-termination-handler:
+  - apiVersion: v2
+    appVersion: 1.19.0
+    created: "2024-08-07T22:43:41.424322362Z"
+    description: A Helm chart for the AWS Node Termination Handler.
+    digest: 50fa9162bc75b0982ef2b1dce4be311649c11cc7d35b70330f0b2db504edc5ee
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - aws
+    - eks
+    - ec2
+    - node-termination
+    - spot
+    kubeVersion: '>= 1.16-0'
+    maintainers:
+    - email: bwagner5@users.noreply.github.com
+      name: Brandon Wagner
+      url: https://github.com/bwagner5
+    - email: jillmon@users.noreply.github.com
+      name: Jillian Kuentz
+      url: https://github.com/jillmon
+    name: aws-node-termination-handler
+    sources:
+    - https://github.com/aws/aws-node-termination-handler/
+    - https://github.com/aws/eks-charts/
+    type: application
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/aws-node-termination-handler-0.21.0.tgz
+    version: 0.21.0
+  aws-node-termination-handler-2:
+  - apiVersion: v2
+    appVersion: 2.0.0-beta
+    created: "2024-08-07T22:43:41.425024716Z"
+    description: A Helm chart for aws-node-termination-handler, an open-source component
+      for gracefully handling termination events for node hosted in AWS.
+    digest: de26827c919f93037cad98ab4b2a67f02d95c7fb063c3f770714db1c496424b9
+    home: https://github.com/aws/eks-charts
+    keywords:
+    - aws
+    - ec2
+    - ec2-spot
+    - eks
+    - node
+    - node-termination
+    - spot
+    kubeVersion: '>=1.16-0'
+    name: aws-node-termination-handler-2
+    sources:
+    - https://github.com/aws/aws-node-termination-handler
+    - https://github.com/aws/eks-charts
+    type: application
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/aws-node-termination-handler-2-0.2.0.tgz
+    version: 0.2.0
+  aws-sigv4-proxy-admission-controller:
+  - apiVersion: v1
+    appVersion: "1"
+    created: "2024-08-07T22:43:41.425340643Z"
+    description: AWS SIGv4 Admission Controller Helm Chart for Kubernetes
+    digest: 40d98f0ac9a1113e9d7458ff2f328752fbf7959e3de404063afbfb2df790c359
+    home: https://github.com/aws/eks-charts
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    maintainers:
+    - name: AWS Observability Team
+      url: https://github.com/aws-observability
+    name: aws-sigv4-proxy-admission-controller
+    sources:
+    - https://github.com/aws/eks-charts
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/aws-sigv4-proxy-admission-controller-0.1.2.tgz
+    version: 0.1.2
+  aws-vpc-cni:
+  - apiVersion: v1
+    appVersion: v1.18.3
+    created: "2024-08-07T22:43:41.426730038Z"
+    description: A Helm chart for the AWS VPC CNI
+    digest: df5fb905a9f1ec1597641154f44337ac9be7909ce9d2a976c6426a84158adf8a
+    home: https://github.com/aws/amazon-vpc-cni-k8s
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - cni
+    - networking
+    - vpc
+    maintainers:
+    - email: jayanthvn@users.noreply.github.com
+      name: Jayanth Varavani
+      url: https://github.com/jayanthvn
+    name: aws-vpc-cni
+    sources:
+    - https://github.com/aws/amazon-vpc-cni-k8s
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/aws-vpc-cni-1.18.3.tgz
+    version: 1.18.3
+  cni-metrics-helper:
+  - apiVersion: v2
+    appVersion: v1.18.3
+    created: "2024-08-07T22:43:41.427433155Z"
+    description: A Helm chart for the AWS VPC CNI Metrics Helper
+    digest: c587c8f9f98cc2b34f2f595a4bd4f67a31303b4f72aa0b071d0f182feb48e780
+    home: https://github.com/aws/amazon-vpc-cni-k8s
+    icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
+    keywords:
+    - eks
+    - cni
+    - networking
+    - vpc
+    maintainers:
+    - email: jayanthvn@users.noreply.github.com
+      name: Jayanth Varavani
+      url: https://github.com/jayanthvn
+    name: cni-metrics-helper
+    sources:
+    - https://github.com/aws/amazon-vpc-cni-k8s
+    urls:
+    - https://github.com/emilyhuaa/eks-charts/cni-metrics-helper-1.18.3.tgz
+    version: 1.18.3
+generated: "2024-08-07T22:43:41.413036126Z"
