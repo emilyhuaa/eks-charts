@@ -1,6 +1,6 @@
 REPO_ROOT ?= $(shell git rev-parse --show-toplevel)
 BUILD_DIR ?= $(dir $(realpath -s $(firstword $(MAKEFILE_LIST))))/build
-VERSION ?= $(shell git describe --tags --always --dirty)
+VERSION ?= 1.0.0-metadata
 
 $(shell mkdir -p ${BUILD_DIR})
 
