@@ -5,6 +5,12 @@ metadata:
   labels:
 {{ include "aws-vpc-cni.labels" . | indent 4 }}
 rules:
+  # rules for metadata-cache-clusterrole
+  - apiGroups: [""]
+    resources: ["pods", "services"]
+    verbs: ["get", "list", "watch"]
+
+  # rules for aws-vpc-cni
   - apiGroups:
       - crd.k8s.amazonaws.com
     resources:

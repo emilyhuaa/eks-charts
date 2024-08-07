@@ -10,5 +10,8 @@ roleRef:
   name: {{ include "aws-vpc-cni.fullname" . }}
 subjects:
   - kind: ServiceAccount
+    name: metadata-cache-serviceaccount
+    namespace: default
+  - kind: ServiceAccount
     name: {{ template "aws-vpc-cni.serviceAccountName" . }}
     namespace: {{ .Release.Namespace }}
