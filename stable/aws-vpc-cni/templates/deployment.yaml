@@ -19,6 +19,6 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 50051
-      serviceAccountName: default
+      serviceAccountName: metadata-cache-serviceaccount
 
 
