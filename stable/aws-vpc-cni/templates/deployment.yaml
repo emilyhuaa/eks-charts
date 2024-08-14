@@ -1,3 +1,4 @@
+{{- if .Values.nodeAgent.enablePolicyEventLogs -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -20,5 +21,7 @@ spec:
         ports:
         - containerPort: 50051
       serviceAccountName: metadata-cache-serviceaccount
+{{- end -}}
+
 
 

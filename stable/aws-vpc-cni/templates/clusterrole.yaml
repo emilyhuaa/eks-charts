@@ -47,6 +47,7 @@ rules:
       - cninodes
     verbs: ["get", "list", "watch", "patch"]
 ---
+{{- if .Values.nodeAgent.enablePolicyEventLogs -}}
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
@@ -54,8 +55,11 @@ metadata:
 rules:
 - apiGroups: [""]
   resources: ["services"]
+  resourceNames: ["aws-k8s-metadata-service"]
   verbs: ["get"]
+{{- end -}}
 ---
+{{- if .Values.nodeAgent.enablePolicyEventLogs -}}
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
@@ -64,3 +68,4 @@ rules:
 - apiGroups: [""]
   resources: ["pods", "services"]
   verbs: ["get", "list", "watch"]
+{{- end -}}

@@ -1,7 +1,8 @@
+{{- if .Values.nodeAgent.enablePolicyEventLogs -}}
 apiVersion: v1
 kind: Service
 metadata:
-  name: metadata-cache-service
+  name: aws-k8s-metadata-service
   namespace: default
   labels:
     app: metadata-cache
@@ -12,3 +13,4 @@ spec:
     - protocol: TCP
       port: 50051
       targetPort: 50051
+{{- end -}}

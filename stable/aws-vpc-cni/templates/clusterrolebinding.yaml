@@ -13,6 +13,7 @@ subjects:
     name: {{ template "aws-vpc-cni.serviceAccountName" . }}
     namespace: {{ .Release.Namespace }}
 ---
+{{- if .Values.nodeAgent.enablePolicyEventLogs -}}
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
@@ -25,17 +26,19 @@ roleRef:
   kind: ClusterRole
   name: eks:service-reader
   apiGroup: rbac.authorization.k8s.io
-
+{{- end -}}
 ---
+{{- if .Values.nodeAgent.enablePolicyEventLogs -}}
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
   name: eks:metadata-cache-binding
 subjects:
 - kind: ServiceAccount
-  name: metadata-cache-serviceaccount
+  name: aws-k8s-metadata-serviceaccount
   namespace: default
 roleRef:
   kind: ClusterRole
   name: eks:pod-reader
   apiGroup: rbac.authorization.k8s.io
+{{- end -}}
